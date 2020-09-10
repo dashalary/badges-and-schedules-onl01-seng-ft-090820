@@ -18,7 +18,4 @@ end
 def printer(attendees)
   badges.each { |badge| puts badge }
   room_assignments.each { |assignment| puts assignment }
-  
- 
- 
 end 
