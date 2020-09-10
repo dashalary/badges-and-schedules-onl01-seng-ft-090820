@@ -17,5 +17,5 @@ end
 
 def printer(attendees)
   
-  puts 
+ 
 end 
