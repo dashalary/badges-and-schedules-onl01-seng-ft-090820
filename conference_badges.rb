@@ -19,6 +19,6 @@ def printer(attendees)
   badges.each { |badge| puts badge }
   room_assignments.each { |assignment| puts assignment }
   
-  puts printerarray
+ 
  
 end 
