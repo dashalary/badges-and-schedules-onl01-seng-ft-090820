@@ -16,7 +16,8 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  printerarray = Array.newbadges.each { |badge| printerarray << batch_badge_creator(attendees) }
+  printerarray = Array.new
+  badges.each { |badge| printerarray << batch_badge_creator(attendees) }
   room_assignments.each { |assignment| printerarray << assign_rooms(attendees) }
   
   puts printerarray
